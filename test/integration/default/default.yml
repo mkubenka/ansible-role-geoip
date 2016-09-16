@@ -15,6 +15,11 @@
         name="{{ ansible_env.SUDO_USER }}"
         groups=""
 
+    - name: install cron daemon
+      yum:
+        name=cronie
+        state=present
+
   roles:
     - role: geoip
 
