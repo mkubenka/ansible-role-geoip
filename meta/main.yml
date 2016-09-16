@@ -1,0 +1,21 @@
+---
+
+galaxy_info:
+  author: Michal Kubenka
+  description: Library for country/city/organization to IP address or hostname mapping.
+  company: SAGES, s.r.o.
+  license: BSD
+  min_ansible_version: 2.0
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Amazon
+      versions:
+        - all
+  galaxy_tags:
+    - geoip
+    - maxmind
+
+dependencies: []

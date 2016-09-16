@@ -1,0 +1,4 @@
+#!/bin/sh
+
+geoipupdate > /dev/null && \
+        ln -sf GeoLiteCountry.dat /usr/share/GeoIP/GeoIP.dat
