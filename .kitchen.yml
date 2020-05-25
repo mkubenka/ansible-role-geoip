@@ -4,7 +4,7 @@ driver:
   name: ec2
   region: eu-west-1
   require_chef_omnibus: false
-  instance_type: t2.micro
+  instance_type: t3.micro
   associate_public_ip: true
 
 transport:
